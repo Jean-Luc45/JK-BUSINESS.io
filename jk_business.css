@@ -1,0 +1,98 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Général */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4; /* Couleur de fond */
+    padding: 10px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333; /* Couleur de l'en-tête */
+    color: white;
+    padding: 10px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu-btn {
+    font-size: 24px;
+}
+
+.banner {
+    text-align: center;
+    padding: 20px;
+    background-color: #007bff; /* Couleur de la bannière */
+    color: white;
+}
+
+.banner h1 {
+    font-size: 28px;
+}
+
+.products {
+    margin-top: 20px;
+}
+
+.products h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Permet d'ajuster les produits sur plusieurs lignes si nécessaire */
+}
+
+.product {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px; /* Ajoute de l'espace entre les produits */
+    flex: 1 1 200px; /* Permet aux produits d'avoir une largeur minimale */
+}
+
+.product img {
+    width: 100px;
+    height: 100px;
+}
+
+.product button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #28a745; /* Couleur du bouton */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.contact {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.contact p {
+    margin: 10px 0;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333; /* Couleur du pied de page */
+    color: white;
+}
